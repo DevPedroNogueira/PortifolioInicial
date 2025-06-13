@@ -69,10 +69,6 @@ ul:not(.contato-lista) li {
   margin: 10px;
 }
 
-ul:not(.contato-lista) li a,
-ul:not(.contato-lista) li i {
-}
-
 /* Ajustes individuais por item */
 ul:not(.contato-lista) li.instagram {
   position: relative;
