@@ -71,7 +71,6 @@ ul:not(.contato-lista) li {
 
 ul:not(.contato-lista) li a,
 ul:not(.contato-lista) li i {
-  color: rgb(110, 72, 247);
 }
 
 /* Ajustes individuais por item */
@@ -79,13 +78,24 @@ ul:not(.contato-lista) li.instagram {
   position: relative;
   left: -12px;
 }
+ul:not(.contato-lista) li.instagram a {
+  color: rgb(110, 72, 247);
+}
+
 ul:not(.contato-lista) li.linkedin {
   position: relative;
   left: -19px;
 }
+ul:not(.contato-lista) li.linkedin a {
+  color: rgb(110, 72, 247);
+}
+
 ul:not(.contato-lista) li.github {
   position: relative;
   left: -34px;
+}
+ul:not(.contato-lista) li.github a {
+  color: rgb(110, 72, 247);
 }
 
 /* ===== Lista de Contato ===== */
