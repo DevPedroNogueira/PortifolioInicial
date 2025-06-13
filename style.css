@@ -1,69 +1,111 @@
 @charset "UTF-8";
+
+/* ===== Estilos Gerais ===== */
 body {
-    font-family: 'Times New Roman', Times, serif; /* Define fonte padrão global */
-    font-size: 18px;        /* Tamanho base, herdado por todos os filhos (a menos que seja sobrescrito) */
-    text-align: center;     /* Alinha todo conteúdo no centro (inclusive títulos, imagens etc) */
-    background-color: rgb(1, 1, 10);
-    color: #f3f3f3;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  background-color: rgb(1, 1, 10);
+  color: #f3f3f3;
 }
+
 img {
   border-radius: 50%;
   box-shadow: 0 0 10px #00000088;
+  display: block;
+  margin: 0 auto;
 }
 
 p {
-    max-width: 800px;       /* Limita a largura para que o texto não fique espalhado */
-    margin: 0 auto;         /* Centraliza horizontalmente */
-    text-align: justify;    /* Justifica o texto (melhora visual) */
-    line-height: 1.2;       /* Espaçamento entre linhas mais confortável*/
-    font-size: 20px;        /* tamanho do parágrafo — está OK */
-    text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 19px;
 }
+
 h1 {
-    color: rgb(110, 72, 247);
+  text-align: center;
+  color: rgb(110, 72, 247);
 }
+
 h2 {
-    font-family: serif;
-    color: rgb(110, 72, 247);
-    font-size: 25px;
-    width: 19ch;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 4s steps(19) infinite;
-    margin-top: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  font-family: serif;
+  color: rgb(110, 72, 247);
+  font-size: 25px;
+  width: 19ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(19) infinite;
+  margin: 10px auto 0;
+  text-align: center;
 }
+
 @keyframes typing {
-    0% { width: 0;}
-    50% { width: 19ch;}
-    100% { width: 0;}
+  0% { width: 0; }
+  50% { width: 19ch; }
+  100% { width: 0; }
 }
-ul {
-    list-style-type:square;
-    text-align: center;
-    padding-left: 0;
-}
-ul li {
-     text-align: center;
-     font-size: 17px;
-     margin:4px;
-}
-li a {
-    color: rgb(134, 103, 247);
-}
+
 h3 {
-    font-family: serif;
-    color: rgb(110, 72, 247);
-    font-size: 28px;
-    text-align: center;
-    margin: 1px;
+  font-family: serif;
+  color: rgb(110, 72, 247);
+  font-size: 35px;
+  text-align: center;
+  margin: 1px;
 }
+
+/* ===== Listas Normais (exceto contato) ===== */
+ul:not(.contato-lista) {
+  list-style-type: square;
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: serif;
+}
+
+ul:not(.contato-lista) li {
+  text-align: center;
+  margin: 10px;
+}
+
+ul:not(.contato-lista) li a,
+ul:not(.contato-lista) li i {
+  color: rgb(110, 72, 247);
+}
+
+/* Ajustes individuais por item */
+ul:not(.contato-lista) li.instagram {
+  position: relative;
+  left: -12px;
+}
+ul:not(.contato-lista) li.linkedin {
+  position: relative;
+  left: -19px;
+}
+ul:not(.contato-lista) li.github {
+  position: relative;
+  left: -34px;
+}
+
+/* ===== Lista de Contato ===== */
+ul.contato-lista {
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: center;
+  font-family: serif;
+  position: relative;
+  left: -30px;
+}
+
+ul.contato-lista li.whatsapp {
+  position: relative;
+  left: -27px;
+}
+
 ul.contato-lista li a {
-    color: rgb(110, 72, 247);
-    font-family: serif;
-    font-size: 17px;
-    text-align: center;
-    margin: 1px;
+  color: rgb(110, 72, 247);
+  font-size: 20px;
+  text-align: right;
+  margin: 4px;
 }
