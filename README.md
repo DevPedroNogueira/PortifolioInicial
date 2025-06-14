@@ -6,7 +6,6 @@ Este é o meu primeiro portfólio web, feito com HTML e CSS, como parte do meu a
 
 - HTML5
 - CSS3
-- Font Awesome (ícones)
 
 ## 🚀 Acesse o site publicado
 
