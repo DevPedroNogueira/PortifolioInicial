@@ -20,7 +20,7 @@ p {
   margin: 0 auto;
   text-align: center;
   line-height: 1.2;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 h1 {
@@ -72,7 +72,7 @@ ul:not(.contato-lista) li {
 /* Ajustes individuais por item */
 ul:not(.contato-lista) li.instagram {
   position: relative;
-  left: -12px;
+  left: -11px;
 }
 ul:not(.contato-lista) li.instagram a {
   color: rgb(110, 72, 247);
@@ -114,4 +114,19 @@ ul.contato-lista li a {
   font-size: 20px;
   text-align: right;
   margin: 4px;
+}
+blockquote.destaque {
+  font-family: serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+blockquote.destaque p {
+  font-family: serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
 }
