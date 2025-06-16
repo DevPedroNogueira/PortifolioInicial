@@ -1,50 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="html.ico" type="image/x-icon">
-    <title>Social</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pedro Vinícius Nogueira</title>
+
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Devicon para ícones de habilidades -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css" />
 </head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<style>
-    li a{
-     margin-right: 8px;
-    }
-</style>
+
 <body>
+  </section>
+  <header>
     <h1>Quem sou eu ?</h1>
-    <img src="foto/minhafoto.png" alt="minha imagem">
-    <h2>Futuro Dev Full Stack</h2>
- <p>Meu nome é <strong>Pedro Vinícius</strong>, Tenho 23 anos, sou estudante de Análise e Desenvolvimento de Sistemas, autodidata e estou me preparando para atuar como desenvolvedor Full Stack.
-No momento, estudo HTML5, CSS3 e JavaScript, buscando sempre melhorar a cada dia. Mais do que escrever código, meu foco é contribuir com soluções que ajudem pessoas e empresas a crescer, se organizarem melhor e chegarem mais longe. <blockquote class="destaque">Estou em busca da minha primeira oportunidade como estagiário ou dev júnior, pronto para aprender com o time,<p> encarar desafios para que possamos nos desenvolver e evoluir juntos.
-</blockquote>
-<h1>Como falar comigo ?</h1>
-<ul>
-  <li class="instagram">
-    <i class="fab fa-instagram"></i>
-    <a href="https://www.instagram.com/pedrovinicius_nog/" target="_blank" rel="external"> Instagram </a> - Acesse o meu Instagram
-  </li>
-  <li class="linkedin">
-    <i class="fab fa-linkedin"></i>
-    <a href="https://www.linkedin.com/in/DevPedroNogueira" target="_blank" rel="external"> Linkedin </a> - Acesse o meu Linkedin
-  </li>
-  <li class="github">
-    <i class="fab fa-github"></i>
-    <a href="https://github.com/DevPedroNogueira" target="_blank" rel="external"> Github </a> - Acesse o meu Github
-  </li>
-</ul>
-<h3>Me contate</h3>
-<ul class="contato-lista">
-   <li>
-        <i class="fas fa-envelope"></i>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=devpedronogueiraoficial@gmail.com"> Gmail</a> - Envie uma mensagem pelo gmail
-    </li>
-    <li class="whatsapp">
-        <i class="fab fa-whatsapp"></i>
-        <a href="https://wa.me/5535984123723" target="_blank"> Whatsapp</a> - Acesse meu whatsapp
-    </li>
-</ul>
+    <img src="foto/minhafoto.png" alt="minha foto">
+    <h1>Pedro Vinícius Nogueira</h1>
+    <h2>Futuro Dev FullStack</h2>
+    <nav>
+      <button data-secao="sobre">Sobre</button>
+      <button data-secao="contato">Contato</button>
+      <button data-secao="habilidades">Habilidades</button>
+    </nav>
+  </header>
+
+  <section id="conteudo"></section>
+
+  <script src="script.js"></script>
 </body>
 </html>
