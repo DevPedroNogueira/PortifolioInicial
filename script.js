@@ -1,9 +1,9 @@
 const secoes = {
   sobre: `
     <h3>Sobre</h3>
-    <p>Meu nome é Pedro Vinícius, Tenho 23 anos, sou estudante de Análise e Desenvolvimento de Sistemas, autodidata e estou me preparando para atuar como desenvolvedor Full Stack. No momento, estudo HTML5, CSS3 e JavaScript, buscando sempre melhorar a cada dia. Mais do que escrever código, meu foco é contribuir com soluções que ajudem pessoas e empresas a crescer, se organizarem melhor e chegarem mais longe.
-    Estou em busca da minha primeira oportunidade como estagiário ou dev júnior, pronto para aprender com o time,
-    encarar desafios para que possamos nos desenvolver e evoluir juntos.</p>
+    <p>Meu nome é Pedro Vinícius Nogueira, tenho 23 anos e sou estudante de Análise e Desenvolvimento de Sistemas. Sou autodidata, determinado e estou me preparando para atuar como desenvolvedor Full Stack.
+Tenho base sólida em HTML5, CSS3 e versionamento com Git, e atualmente estou aprofundando meus conhecimentos em JavaScript. Estou em busca da minha primeira oportunidade como estagiário ou desenvolvedor júnior, com grande vontade de aprender, crescer, contribuir com a equipe.
+Qualquer um pode escrever um código, mas meu foco é ir além: entender o problema, colaborar com o time e entregar soluções reais, que façam a diferença para empresa e seus clientes. Estou pronto para somar, aprender com profissionais mais experientes e evoluir constantemente.</p>
   `,
   contato: `
   <div id="contato">
