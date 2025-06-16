@@ -45,5 +45,4 @@ botoes.forEach(botao => {
   });
 });
 
-// Carregar conteúdo inicial
 carregarConteudo("sobre");

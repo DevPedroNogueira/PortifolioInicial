@@ -6,6 +6,7 @@ Este é o meu primeiro portfólio web, feito com HTML e CSS, como parte do meu a
 
 - HTML5
 - CSS3
+- JavaScript
 
 ## 🚀 Acesse o site publicado
 
