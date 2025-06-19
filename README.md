@@ -7,7 +7,10 @@ Este é o meu primeiro portfólio web, feito com HTML e CSS, como parte do meu a
 - HTML5
 - CSS3
 - JavaScript
+                                         ##🚀  ATENÇÃO
+  Link do site [](https://vercel.com/devpedronogueiras-projects/portifolio) Este é o Portfilóio atual e que será atualizado
 
+  
 ## 🚀 Acesse o site publicado
 
 🔗 link do site: [[ht(https://portifolio-inicial-opal.vercel.app)](https://portifolio-inicial-opal.vercel.app)
